@@ -50,7 +50,8 @@ I love learning about Data Engineering, Software Engineering, Cloud Computing, A
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
-![Flask](https://img.shields.io/badge/Flask-%23000.svg?style=flat&logo=flask&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
 
 
 ##### ☁️ Cloud : 
@@ -67,7 +68,7 @@ I love learning about Data Engineering, Software Engineering, Cloud Computing, A
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)
 
 ---
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=STRYKER316&hide_progress=false&langs_count=3&theme=github_dark&hide_border=true)](https://github.com/STRYKER316)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=STRYKER316&size_weight=0&count_weight=1&hide_progress=false&langs_count=3&theme=github_dark&hide_border=true)](https://github.com/STRYKER316)
 ![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=STRYKER316&theme=github_dark&hide_border=true)
 
 
