@@ -9,7 +9,7 @@
 
 Hello👋🏻. I'm Anshil.
 
-I love learning about Data Engineering, Software Engineering, Cloud Computing, Artificial Intelligence, Distributed Systems.
+My Interests lie in Software Engineering, Data Engineering, Distributed Systems, Artificial Intelligence, Cloud Computing.
 
 #### 🎓 Certifications :
 
@@ -47,11 +47,12 @@ I love learning about Data Engineering, Software Engineering, Cloud Computing, A
 
 ##### 🌐 Web Dev : 
 
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
 
 
 ##### ☁️ Cloud : 
