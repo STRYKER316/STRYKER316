@@ -15,15 +15,15 @@ team, the schema, the API, the migration, the deploy, and the follow-ups.
 - **Configuration-driven eligibility.** Benefit rules that vary by geography and
   partner role, expressed as configuration rather than code, and resolvable down
   to district level across a national network.
-- **Schema design for systems that get revamped.** Versioned entities,
-  soft-delete semantics, and natural keys enforced by partial unique indexes —
-  built to be changed later, with live data already sitting in the table.
+- **Versioned schema design.** Entity versioning, soft-delete semantics, and
+  natural keys enforced by partial unique indexes — built to be changed later,
+  with live data already sitting in the table.
 - **Large-scale data movement.** Bulk ingestion runs of tens of thousands of
   rows, and migrations that move live tables between schema versions while
   reconciling two data formats.
-- **Scheduled job pipelines.** Crons that generate and update eligibility each
-  scheme period, carry state forward between them, and resume cleanly when a
-  run stops halfway.
+- **Scheduled job pipelines.** Crons that apply those rules each scheme period,
+  carry state forward between them, and resume cleanly when a run stops
+  halfway.
 
 ## Tech stack
 
