@@ -13,21 +13,15 @@ number looks wrong.
 
 ## What I work on
 
-- **Data models that survive a revamp.** Versioned entities, soft deletes that
-  mean something, natural keys enforced by a database constraint rather than by
-  everyone remembering to check.
-- **API boundaries that reject bad data early.** Malformed input fails at the
-  edge with a message that still makes sense, not five calls deep where it
-  doesn't.
-- **Large-scale data movement.** Bulk ingestion tens of thousands of rows at a
-  time, and migrations against live tables — where "reject the whole file" and
-  "accept it silently wrong" are both failure modes, and the target table is
-  never empty.
-- **Scheduled jobs that must be safe to re-run.** Idempotency, carry-forward
-  rules, and the awkward middle state where the last run stopped halfway.
-- **Read paths that stay fast as the table grows.** Don't write N+1 queries,
-  index the columns you actually filter on, and cache with a TTL you can reason
-  about.
+- **Schema design for systems that get revamped.** Versioned entities,
+  soft-delete semantics, and natural keys enforced by partial unique indexes —
+  built to be changed later, with live data already sitting in the table.
+- **Large-scale data movement.** Bulk ingestion runs of tens of thousands of
+  rows, and migrations that move live tables between schema versions while
+  reconciling two data formats.
+- **Scheduled job pipelines.** Crons that generate and update eligibility each
+  period, carry state forward across periods, and resume cleanly when a run
+  stops halfway.
 
 ## Tech stack
 
