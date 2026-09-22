@@ -19,24 +19,8 @@ follow-up when a number looks wrong.
   rules, and the awkward middle state where the last run stopped halfway.
 - **Read paths that stay fast as the table grows.** Mostly: don't write N+1
   queries, and index the columns you actually filter on.
-
-## Opinions I'll defend
-
-- Invalid data gets rejected at the API boundary, not five calls deep where the
-  error message has stopped making sense.
-- A migration must never assume its target table is empty.
-- The transaction boundary lives in exactly one layer; everything below it
-  flushes, nothing below it commits.
-- Design docs before the code, and updated with it — most of a feature's cost is
-  the second person reading it.
-
-## Selected work
-
-**[event-ticketing-platform](https://github.com/STRYKER316/event-ticketing-platform)**
-— reserved-seat booking platform, five event-driven microservices over Kafka.
-Two seat-hold concurrency strategies (Postgres sweep vs. Redis TTL lock)
-benchmarked head-to-head under concurrent load, Stripe payments with idempotent
-webhook handling, Keycloak OIDC, Elasticsearch search. MS CS capstone.
+- **Migrations against live data**, which never assume the target table is
+  empty.
 
 ## Stack
 
