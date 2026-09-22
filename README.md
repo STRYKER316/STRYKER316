@@ -12,9 +12,9 @@ team, the schema, the API, the migration, the deploy, and the follow-ups.
 
 ## What I work on
 
-- **Configuration-driven eligibility.** Benefit rules that vary by geography and
-  partner role, expressed as configuration rather than code, and resolvable down
-  to district level across a national network.
+- **Configuration-driven benefit schemes.** Eligibility rules that vary by
+  geography and partner role, expressed as configuration rather than code, and
+  resolvable down to district level across a national network.
 - **Versioned schema design.** Entity versioning, soft-delete semantics, and
   natural keys enforced by partial unique indexes — built to be changed later,
   with live data already sitting in the table.
