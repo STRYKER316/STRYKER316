@@ -11,23 +11,23 @@ I own features end to end: the requirements conversation with the business
 team, the schema, the API, the migration, the deploy, and the follow-up when a
 number looks wrong.
 
-Over two years on that platform, most of my time has gone to data modelling and
-schema design, API boundaries, PostgreSQL performance, Redis caching, scheduled
-job pipelines, and large-scale data migrations.
-
-## Where I go deep
+## What I work on
 
 - **Data models that survive a revamp.** Versioned entities, soft deletes that
   mean something, natural keys enforced by a database constraint rather than by
   everyone remembering to check.
-- **Bulk ingestion.** Tens of thousands of rows per run, where "reject the whole
-  file" and "accept it silently wrong" are both failure modes.
+- **API boundaries that reject bad data early.** Malformed input fails at the
+  edge with a message that still makes sense, not five calls deep where it
+  doesn't.
+- **Large-scale data movement.** Bulk ingestion tens of thousands of rows at a
+  time, and migrations against live tables — where "reject the whole file" and
+  "accept it silently wrong" are both failure modes, and the target table is
+  never empty.
 - **Scheduled jobs that must be safe to re-run.** Idempotency, carry-forward
   rules, and the awkward middle state where the last run stopped halfway.
-- **Read paths that stay fast as the table grows.** Mostly: don't write N+1
-  queries, and index the columns you actually filter on.
-- **Migrations against live data**, which never assume the target table is
-  empty.
+- **Read paths that stay fast as the table grows.** Don't write N+1 queries,
+  index the columns you actually filter on, and cache with a TTL you can reason
+  about.
 
 ## Tech stack
 
