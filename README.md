@@ -4,8 +4,10 @@ Backend engineer. I work on benefit and insurance distribution systems — the
 machinery that decides who's eligible for what, issues it, and keeps the record
 straight a year later when the rules have changed twice.
 
-Currently at Humbee. I own features end to end: the requirements conversation
-with the business team, the schema, the API, the migration, the deploy, and the
+Currently at Humbee, where I build the benefits platform behind manufacturers'
+dealer and distributor networks — 100k+ partner firms evaluated each scheme
+period. I own features end to end: the requirements conversation with the
+business team, the schema, the API, the migration, the deploy, and the
 follow-up when a number looks wrong.
 
 ## What I work on
@@ -22,10 +24,30 @@ follow-up when a number looks wrong.
 - **Migrations against live data**, which never assume the target table is
   empty.
 
-## Stack
+## Tech stack
 
-Python · FastAPI · SQLAlchemy · PostgreSQL · Redis · Kafka · Docker · AWS
-Earlier: Java, Spring Boot
+**Languages**
+- Python
+- SQL
+- Java
+
+**Backend**
+- FastAPI
+- SQLAlchemy
+- Pydantic
+- Spring Boot
+
+**Data & messaging**
+- PostgreSQL
+- Redis
+- Kafka
+- Elasticsearch
+- Alembic
+
+**Infrastructure**
+- Docker
+- AWS
+- Git
 
 ## Elsewhere
 
