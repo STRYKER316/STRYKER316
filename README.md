@@ -1,10 +1,15 @@
 # Anshil Mishra
 
-Backend engineer at Humbee, building and running the social-security benefits
-and insurance distribution systems behind 100k+ partner firms across
-manufacturer dealer networks. I own features end to end: the requirements
-conversation with the business team, the schema, the API, the migration, the
-deploy, and the follow-up when a number looks wrong.
+Backend engineer at Humbee.
+
+I build and run the social-security benefits and insurance distribution
+platform behind a 100k+ dealer and distributor network spanning multiple
+manufacturers — the machinery that decides who's eligible for what, issues it,
+and keeps the record straight as the rules change underneath it.
+
+I own features end to end: the requirements conversation with the business
+team, the schema, the API, the migration, the deploy, and the follow-up when a
+number looks wrong.
 
 ## What I work on
 
