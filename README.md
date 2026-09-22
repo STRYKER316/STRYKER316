@@ -4,8 +4,8 @@ Backend engineer at Humbee.
 
 I build and run the social-security benefits and insurance distribution
 platform behind a 100k+ dealer and distributor network spanning multiple
-manufacturers — the machinery that decides who's eligible for what benefit, issues it,
-and keeps the record straight as the rules change underneath it.
+manufacturers — the machinery that decides who's eligible for what benefit,
+issues it, and keeps the record straight as the rules change underneath it.
 
 I own features end to end: the requirements conversation with the business
 team, the schema, the API, the migration, the deploy, and the follow-ups.
@@ -19,8 +19,8 @@ team, the schema, the API, the migration, the deploy, and the follow-ups.
   rows, and migrations that move live tables between schema versions while
   reconciling two data formats.
 - **Scheduled job pipelines.** Crons that generate and update eligibility each
-  period, carry state forward across periods, and resume cleanly when a run
-  stops halfway.
+  scheme period, carry state forward between them, and resume cleanly when a
+  run stops halfway.
 
 ## Tech stack
 
@@ -32,6 +32,7 @@ team, the schema, the API, the migration, the deploy, and the follow-ups.
 **Backend**
 - FastAPI
 - SQLAlchemy
+- Alembic
 - Pydantic
 - Spring Boot
 
@@ -40,7 +41,6 @@ team, the schema, the API, the migration, the deploy, and the follow-ups.
 - Redis
 - Kafka
 - Elasticsearch
-- Alembic
 
 **Infrastructure**
 - Docker
