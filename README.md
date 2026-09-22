@@ -27,28 +27,9 @@ team, the schema, the API, the migration, the deploy, and the follow-ups.
 
 ## Tech stack
 
-**Languages**
-- Python
-- SQL
-- Java
+**Daily** — Python · FastAPI · SQLAlchemy · Pydantic · Alembic · PostgreSQL · Redis · Docker · AWS
 
-**Backend**
-- FastAPI
-- SQLAlchemy
-- Alembic
-- Pydantic
-- Spring Boot
-
-**Data & messaging**
-- PostgreSQL
-- Redis
-- Kafka
-- Elasticsearch
-
-**Infrastructure**
-- Docker
-- AWS
-- Git
+**Also worked with** — Java · Spring Boot · Kafka · Elasticsearch · MongoDB
 
 ## Socials
 
