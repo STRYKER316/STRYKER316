@@ -11,7 +11,11 @@ I own features end to end: the requirements conversation with the business
 team, the schema, the API, the migration, the deploy, and the follow-up when a
 number looks wrong.
 
-## What I work on
+Over two years on that platform, most of my time has gone to data modelling and
+schema design, API boundaries, PostgreSQL performance, Redis caching, scheduled
+job pipelines, and large-scale data migrations.
+
+## Where I go deep
 
 - **Data models that survive a revamp.** Versioned entities, soft deletes that
   mean something, natural keys enforced by a database constraint rather than by
@@ -50,6 +54,6 @@ number looks wrong.
 - AWS
 - Git
 
-## Elsewhere
+## Socials
 
 [LinkedIn](https://www.linkedin.com/in/anshil-mishra/)
