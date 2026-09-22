@@ -8,8 +8,7 @@ manufacturers — the machinery that decides who's eligible for what benefit, is
 and keeps the record straight as the rules change underneath it.
 
 I own features end to end: the requirements conversation with the business
-team, the schema, the API, the migration, the deploy, and the follow-up when a
-number looks wrong.
+team, the schema, the API, the migration, the deploy, and the follow-ups.
 
 ## What I work on
 
