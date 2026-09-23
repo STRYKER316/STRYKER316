@@ -27,10 +27,6 @@ team, the schema, the API, the migration, the deploy, and the follow-ups.
 
 ## Tech stack
 
-**Daily** — Python · FastAPI · SQLAlchemy · Pydantic · Alembic · PostgreSQL · Redis · Docker · AWS
+**Core** — Python · FastAPI · SQLAlchemy · Pydantic · Alembic · PostgreSQL · Redis · Docker · AWS
 
-**Also worked with** — Java · Spring Boot · Kafka · Elasticsearch · MongoDB
-
-## Contact
-
-[LinkedIn](https://www.linkedin.com/in/anshil-mishra/)
+**Working knowledge** — Java · Spring Boot · Kafka · Elasticsearch · MongoDB
