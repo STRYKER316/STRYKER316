@@ -31,6 +31,6 @@ team, the schema, the API, the migration, the deploy, and the follow-ups.
 
 **Also worked with** — Java · Spring Boot · Kafka · Elasticsearch · MongoDB
 
-## Socials
+## Contact
 
 [LinkedIn](https://www.linkedin.com/in/anshil-mishra/)
